@@ -64,7 +64,7 @@ p{
 /* For Mobile */
 @media only screen and (max-width: 800px) {
   .inner-card{
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-top: 6rem;
     width: 85%;
     text-align: center;
