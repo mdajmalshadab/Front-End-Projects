@@ -6,8 +6,8 @@ body {
 .bg {
   background-image: url("images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
-  background-size: 1440px 500px;
-  background-position: bottom 370px right 50px;
+  background-size: contain;
+  background-position: bottom 370px right 0;
 }
 
 /*************************************** Card ****************************************/
