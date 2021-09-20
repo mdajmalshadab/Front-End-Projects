@@ -1,0 +1,119 @@
+body {
+  background-color: #f2f2f2;
+  color: #ffffff;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.parent-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 7rem auto;
+  text-align: left;
+  width: 60%;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  margin: 2rem 1rem 2rem 0;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 1rem 1rem 1rem 0;
+  opacity: 0.65;
+  font-size: 15px;
+}
+
+/*************************************** Card Property *****************************/
+.card-1 {
+  border-radius: 0.5rem 0 0 0.5rem;
+  padding: 3rem 2.5rem 2.5rem 3rem;
+  background: #e38826;
+}
+
+.card-2 {
+  padding: 3rem 2.5rem 2.5rem 3rem;
+  background-color: #006970;
+}
+
+.card-3 {
+  border-radius: 0 0.5rem 0.5rem 0;
+  padding: 3rem 2.5rem 2.5rem 3rem;
+  background-color: #004241;
+}
+
+/*************************************** Button Property ************************************/
+.btn-sedan {
+  color: #e38826;
+}
+
+.btn-suv {
+  color: #006970;
+}
+
+.btn-luxury {
+  color: #004241;
+}
+
+.btn {
+  margin: 4rem 1rem 1rem 0;
+  background-color: #f2f2f2;
+  border-radius: 5rem;
+  padding: 11px 32px;
+  font-weight: 500;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+
+/*********************************** Button property upon Hovering **************************************/
+.btn:hover {
+  outline: #f2f2f2;
+  color: #f2f2f2;
+}
+
+.btn-sedan:hover {
+  background-color: #e38826;
+}
+
+.btn-suv:hover {
+  background-color: #006970;
+}
+
+.btn-luxury:hover {
+  background-color: #004241;
+}
+
+/************************************ Smaller Screen/Mobile Screen ***************************************/
+
+@media only screen and (max-width: 1200px) {
+  .parent-div {
+    flex-direction: column;
+    max-width: 400px;
+    margin: 7rem auto;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .card-1 {
+    border-radius: 0.5rem 0.5rem 0 0;
+    padding: 3rem 2rem 1rem 2.5rem;
+  }
+
+  .card-2 {
+    padding: 3rem 2rem 1rem 2.5rem;
+  }
+
+  .card-3 {
+    border-radius: 0 0 0.5rem 0.5rem;
+    padding: 3rem 2rem 1rem 2.5rem;
+  }
+
+  .btn {
+    margin: 2rem 0;
+  }
+}
