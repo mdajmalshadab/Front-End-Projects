@@ -22,12 +22,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot.png)
+![](images/Screenshot.png)
 
 ### Links
 
-- [Solution URL](https://github.com/mdajmalshadab/Front-End-Projects/tree/Practice-Projects/2.%20Stats%20Preview%20Card)
-- [Live Site URL](https://mdajmalshadab.github.io/Front-End-Projects/2.%20Stats%20Preview%20Card/index.html)
+- [Solution URL](https://github.com/mdajmalshadab/Front-End-Projects/tree/Practice-Projects/3-Column-Preview-Card-Component)
+- [Live Site URL](https://mdajmalshadab.github.io/Front-End-Projects/3-Column-Preview-Card-Component/index.html)
 
 ## My process
 
