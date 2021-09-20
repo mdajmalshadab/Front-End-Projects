@@ -91,6 +91,7 @@ p {
   .parent-div {
     flex-direction: column;
     max-width: 400px;
+    width:330px;
     margin: 7rem auto;
     justify-content: center;
   }
