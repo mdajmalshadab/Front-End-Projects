@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/mdajmalshadab/Front-End-Projects/tree/Practice-Projects/3-Column-Preview-Card-Component)
-- [Live Site URL](https://mdajmalshadab.github.io/Front-End-Projects/3-Column-Preview-Card-Component/index.html)
+- [Solution URL](https://github.com/mdajmalshadab/Front-End-Projects/tree/Practice-Projects/4-Profile-Card-Component-Main)
+- [Live Site URL](https://mdajmalshadab.github.io/Front-End-Projects/4-Profile-Card-Component-Main/index.html)
 
 ## My process
 
