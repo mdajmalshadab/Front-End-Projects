@@ -1,0 +1,196 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#af67e9, rgba(101, 101, 231, 0.95));
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+}
+
+/*********************************************** Card ***************************************/
+.card {
+  margin: 15rem auto 5rem auto;
+  text-align: center;
+  background-color: white;
+  width: 420px;
+  max-width: 92rem;
+  border-radius: 2rem;
+  box-shadow: 0 4rem 6rem -1rem rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-body {
+  position: relative;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  height: 720px;
+  max-height: 880px;
+}
+
+/************************************************** Card Image ****************************************/
+.woman-mobile {
+  width: 350px;
+  position: relative;
+  top: -160px;
+  left: -20px;
+  z-index: 1;
+}
+
+.bg-pattern-mobile {
+  width: 300px;
+  z-index: 0;
+  position: relative;
+  top: -270px;
+}
+
+.box-desktop {
+  display: none;
+}
+
+/************************************************** FAQ Part ************************************************/
+.faq-container {
+  position: relative;
+  top: -230px;
+  margin: 0 16px;
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 48px;
+  font-size: 43px;
+}
+
+hr {
+  color: #787887;
+}
+
+.accordian-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #4a4b5e;
+  margin: 0;
+  font-size: 15px;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 400ms;
+  margin: 8px 32px 0 0;
+  color: #787887;
+  font-size: 13px;
+}
+
+.accordian-item:target .answer {
+  max-height: 160px;
+  text-align: left;
+  font-size: 13px;
+}
+
+.accordian-item:target .arrow-icon {
+  transform: rotate(180deg);
+}
+
+.accordian-item:target .accordian-link {
+  color: #000;
+  font-weight: 700;
+}
+
+.accordian-link:hover {
+  color: #f47c57;
+}
+
+/****************************************** Desktop Design *****************************************/
+/***************************************************************************************************/
+@media only screen and (min-width: 1000px) {
+
+  /**************************** Changing mobile image display to None ****************************/
+  .woman-mobile {
+    display: none;
+  }
+
+  .bg-pattern-mobile {
+    display: none;
+  }
+
+  /************************************ Desktop Card Settings *******************************************/
+  .card {
+    margin: 7.9rem auto;
+    width: 950px;
+    height: 500px;
+    border: 0;
+  }
+
+  .card-body {
+    width: 950px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    background-image: url("images/illustration-woman-online-desktop.svg"), url("images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: left -80px top 50px, left -570px top -300px;
+  }
+
+  /************************************************* Desktop Box Image ****************************************/
+  .box-desktop {
+    display: block;
+    overflow: visible;
+    position: relative;
+    z-index: 1;
+    left: -270px;
+    top: 170px;
+    animation: SHM 1s linear forwards infinite;
+  }
+
+  /******************************************** Desktop FAQ Section ****************************************/
+  h1 {
+    text-align: left;
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+  }
+
+  hr {
+    margin: 0.5rem;
+  }
+
+  .faq-container {
+    align-self: center;
+    margin: 3rem 2rem 5rem 2rem;
+    position: relative;
+    width: 37%;
+    left: 100px;
+    top: 0;
+    text-align: left;
+    z-index: 1;
+  }
+
+  .accordian-link {
+    font-size: 14.5px;
+  }
+}
+
+@keyframes SHM {
+  0% {
+    transform: translateY(0);
+  }
+
+  25% {
+    transform: translateY(5px);
+  }
+
+  75% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
