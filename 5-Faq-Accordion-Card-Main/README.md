@@ -43,4 +43,4 @@ Users should be able to:
 
 ### What I learned
 
-This was a tricky one, quite challenging for me, learned a lot, learned about drop creating drop down box using id:target approach (got help from a youtube video), I also cleared my concept regarding background-image property of css, got better understanding of flex display and proper positioning techniques to make my website more responsive. I also learnt little bit about CSS animation and tried it over the box.
+This was a tricky one, quite challenging for me, learned a lot, learned about creating drop down box(accordian) using id:target approach (got help from a youtube video), I also cleared my concept regarding background-image property of css, got better understanding of flex display and proper positioning techniques to make my website more responsive. I also learnt little bit about CSS animation and tried it over the box.
