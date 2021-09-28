@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/mdajmalshadab/Front-End-Projects/tree/Practice-Projects/5-Faq-Accordion-Card-Main)
-- [Live Site URL](https://mdajmalshadab.github.io/Front-End-Projects/5-Faq-Accordion-Card-Main/index.html#default)
+- [Solution URL](https://github.com/mdajmalshadab/Front-End-Projects/tree/Practice-Projects/6-social-proof-section-master)
+- [Live Site URL](https://mdajmalshadab.github.io/Front-End-Projects/6-social-proof-section-master/index.html)
 
 ## My process
 
