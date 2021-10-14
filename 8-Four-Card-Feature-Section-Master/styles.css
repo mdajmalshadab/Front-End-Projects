@@ -78,7 +78,7 @@ h3 {
   background-color: hsl(212, 86%, 64%);
 }
 img {
-  margin-top: 2rem;
+  margin: 2rem 0 1rem 0;
   float: right;
 }
 
@@ -87,6 +87,7 @@ img {
   main {
     max-width: 30rem;
     margin: 3rem auto;
+    text-align: center;
   }
   h1 {
     font-size: 1.7rem;
