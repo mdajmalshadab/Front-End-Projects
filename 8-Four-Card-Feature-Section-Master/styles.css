@@ -1,0 +1,113 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+main {
+  margin: 6rem 0;
+}
+
+/*********************************************** Headings and para  *********************************************/
+
+h1 {
+  color: hsl(234, 12%, 34%);
+  font-weight: 200;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  font-size: 2rem;
+}
+p {
+  color: hsl(229, 6%, 66%);
+  font-size: 13px;
+}
+
+h3 {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 1rem 0 0 1rem;
+}
+.head-part {
+  max-width: 29rem;
+  margin: 3rem auto;
+}
+
+/*************************************************** Card Part  *****************************************/
+
+.card-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 5rem 0 5rem;
+}
+.card-group-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card {
+  border-radius: 10px !important;
+  overflow: hidden;
+  text-align: left;
+  max-width: 22rem;
+  margin: 1rem;
+}
+.card-body {
+  padding: 0 3rem 0 1rem;
+}
+.head-color-1 {
+  height: 4px;
+  background-color: hsl(180, 62%, 55%);
+}
+.head-color-2 {
+  height: 4px;
+  background-color: hsl(0, 78%, 62%);
+}
+.head-color-3 {
+  height: 4px;
+  background-color: hsl(34, 97%, 64%);
+}
+.head-color-4 {
+  height: 4px;
+  background-color: hsl(212, 86%, 64%);
+}
+img {
+  margin-top: 2rem;
+  float: right;
+}
+
+/**************************** For Mobile Screen  *************************/
+@media only screen and (max-width: 1000px) {
+  main {
+    max-width: 30rem;
+    margin: 3rem auto;
+  }
+  h1 {
+    font-size: 1.7rem;
+  }
+  h2 {
+    font-size: 1.7rem;
+  }
+  .head-part {
+    margin: 3rem 0 5rem 0;
+  }
+  .top-para {
+    margin: 0 3rem;
+  }
+  .card-group {
+    display: block;
+  }
+  .card-group-col {
+    display: block;
+  }
+  .card {
+    width: 20rem;
+    margin: 2rem 0;
+  }
+}
