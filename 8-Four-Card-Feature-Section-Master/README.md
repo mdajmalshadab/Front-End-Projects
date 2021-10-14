@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/mdajmalshadab/Front-End-Projects/tree/Practice-Projects/7-Article-Preview-Component-Master)
-- [Live Site URL](https://mdajmalshadab.github.io/Front-End-Projects/7-Article-Preview-Component-Master/index.html)
+- [Solution URL](https://github.com/mdajmalshadab/Front-End-Projects/tree/Practice-Projects/8-Four-Card-Feature-Section-Master)
+- [Live Site URL](https://mdajmalshadab.github.io/Front-End-Projects/8-Four-Card-Feature-Section-Master/index.html)
 
 ## My process
 
