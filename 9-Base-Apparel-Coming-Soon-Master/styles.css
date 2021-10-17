@@ -1,0 +1,180 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+main {
+  text-align: center;
+  margin: 3rem 0 5rem 0;
+}
+
+p {
+  color: hsl(0, 36%, 70%); /*Desaturated Red*/
+  margin: 0 4rem 2rem 4rem;
+}
+
+/***************************************** Girl Image part  **************************************/
+.girl-img {
+  width: 100%;
+}
+.girl-img-desktop {
+  display: none;
+}
+
+/***************************************** Company Logo  *********************************************/
+.logo {
+  display: none;
+}
+
+.logo-top {
+  text-align: left;
+  margin: 0 0 3rem 3rem;
+}
+.company-logo {
+  width: 30%;
+}
+
+/****************************************** Heading part  **************************************************/
+.heading {
+  margin: 4rem 2rem 2rem 2rem;
+}
+.top-heading {
+  color: hsl(0, 36%, 70%); /*Desaturated Red*/
+  letter-spacing: 15px;
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+.bottom-heading {
+  color: hsl(0, 6%, 24%); /*Dark Grayish Red */
+  letter-spacing: 15px;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+h1 {
+  line-height: 3.5rem;
+  margin: 0;
+}
+
+/******************************************** text Box & Submit Button  ************************************/
+
+input[type='text'] {
+  border-width: 0.5px;
+  border-color: hsl(0, 36%, 70%);
+  border-style: solid;
+  border-radius: 25px;
+  padding: 0.8rem 5rem 0.8rem 1rem;
+  width: 70%;
+  margin-left: 3rem;
+}
+input[placeholder='Email Address'] {
+  color: darkgrey;
+}
+::placeholder {
+  opacity: 0.7;
+}
+input[type='text']:focus {
+  border-color: hsl(0, 62%, 60%);
+  outline: none;
+}
+
+.submit-btn {
+  border: none;
+  background-image: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  border-radius: 25px;
+  padding: 0.95rem 1.9rem;
+  position: relative;
+  right: 50px;
+  bottom: 1px;
+}
+.submit-btn:hover {
+  background-image: linear-gradient(to right, hsl(0, 39%, 88%), hsl(0, 80%, 86%));
+  box-shadow: 0 15px 50px hsl(0, 36%, 70%);
+}
+
+/****************************************** Email Error Section  ***************************************/
+
+.error-logo {
+  background: url('images/icon-error.svg');
+  background-repeat: no-repeat;
+  background-position: left 85% top 10px;
+}
+.error-email {
+  border-color: hsl(0, 93%, 68%) !important;
+  border-width: 2px !important;
+}
+.error-msg {
+  text-align: left;
+  margin: 0.2rem 0 0 4.5rem;
+  font-size: 13px;
+  color: hsl(0, 93%, 68%);
+  opacity: 0.9;
+  visibility: hidden;
+}
+
+/******************************************** For Larger Screen  ******************************************/
+
+@media only screen and (min-width: 700px) {
+  main {
+    margin: 0;
+  }
+  /*********************************************** Heading Section  **************************************/
+
+  h1 {
+    line-height: 5.5rem;
+    margin: 0;
+  }
+  .head-para {
+    margin-top: 8rem;
+  }
+  .top-heading {
+    font-size: 5rem;
+  }
+  .bottom-heading {
+    font-size: 5rem;
+  }
+
+  /************************************************ Girl Image  ********************************************/
+
+  .girl-img {
+    display: none;
+  }
+  .girl-img-desktop {
+    display: block;
+    height: 100vh;
+    position: relative;
+  }
+
+  /********************************************* Company Logo  ************************************************/
+
+  .logo-top {
+    display: none;
+  }
+  .logo {
+    display: block;
+    text-align: left;
+    margin: 0 0 3rem 3rem;
+  }
+
+  /*********************************************** Page Body  **************************************************/
+
+  .page-body {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .image-section {
+    order: 2;
+  }
+  .text-section {
+    text-align: left;
+    order: 1;
+    margin: 5rem 18rem 0 8rem;
+  }
+  .submit-btn {
+    padding: 0.95rem 2.5rem;
+  }
+  p {
+    margin: 0 4rem 2rem 2rem;
+  }
+  input[type='text'] {
+    margin-left: 2rem;
+  }
+}
