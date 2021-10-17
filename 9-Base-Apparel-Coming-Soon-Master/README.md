@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/mdajmalshadab/Front-End-Projects/tree/Practice-Projects/8-Four-Card-Feature-Section-Master)
-- [Live Site URL](https://mdajmalshadab.github.io/Front-End-Projects/8-Four-Card-Feature-Section-Master/index.html)
+- [Solution URL](https://github.com/mdajmalshadab/Front-End-Projects/tree/Practice-Projects/9-Base-Apparel-Coming-Soon-Master)
+- [Live Site URL](https://mdajmalshadab.github.io/Front-End-Projects/9-Base-Apparel-Coming-Soon-Master/index.html)
 
 ## My process
 
@@ -37,7 +37,7 @@ Users should be able to:
 - CSS
 - Bootstrap 
 - FlexBox
--Javascript/Jquery
+- Javascript/Jquery
 
 
 ### What I learned
