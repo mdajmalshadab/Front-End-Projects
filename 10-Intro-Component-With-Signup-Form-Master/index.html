@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Bootstrap Library -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="para-section">
+        <h1>Learn to code by watching others</h1>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+      </div>
+      <div class="card-section">
+        <div class="btn btn-primary trial-button"><span class="trial">Try it free 7 days</span> then $20/mo. thereafter</div>
+        <div class="card">
+          <div class="card-body">
+            <div class="text-boxes">
+              <input type="text" , name="Fname" , placeholder="First Name" /> <br />
+              <div class="error-msg"><em class="error-msg-fname">First Name cannot be empty</em></div>
+              <input type="text" , name="Lname" , placeholder="Last Name" /> <br />
+              <div class="error-msg"><em class="error-msg-lname">Last Name cannot be empty</em></div>
+              <input type="text" , name="Email" , placeholder="Email Address" /> <br />
+              <div class="error-msg"><em class="error-msg-email">Looks like this is not an email</em></div>
+              <input type="text" , name="pass-word" , placeholder="Password" /> <br />
+              <div class="error-msg"><em class="error-msg-password">Password cannot be empty</em></div>
+            </div>
+
+            <div class="card-footer-section">
+              <div class="btn btn-primary claim-btn">CLAIM YOUR FREE TRIAL</div>
+              <p class="footer-para">By clicking the button, you are agreeing to our <span class="footer-span">Terms and Services</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
