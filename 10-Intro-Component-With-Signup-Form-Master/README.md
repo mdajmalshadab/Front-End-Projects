@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/mdajmalshadab/Front-End-Projects/tree/Practice-Projects/9-Base-Apparel-Coming-Soon-Master)
-- [Live Site URL](https://mdajmalshadab.github.io/Front-End-Projects/9-Base-Apparel-Coming-Soon-Master/index.html)
+- [Solution URL](https://github.com/mdajmalshadab/Front-End-Projects/tree/Practice-Projects/10-Intro-Component-With-Signup-Form-Master)
+- [Live Site URL](https://mdajmalshadab.github.io/Front-End-Projects/10-Intro-Component-With-Signup-Form-Master/index.html)
 
 ## My process
 
