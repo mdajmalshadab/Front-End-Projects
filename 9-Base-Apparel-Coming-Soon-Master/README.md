@@ -41,6 +41,7 @@ Users should be able to:
 - CSS
 - Bootstrap 
 - FlexBox
+- Mobile-first workflow
 - Javascript/Jquery
 
 
