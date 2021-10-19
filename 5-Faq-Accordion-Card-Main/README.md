@@ -18,7 +18,9 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
+- View the optimal layout for the component depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Hide/Show the answer to a question when the question is clicked
 
 ### Screenshot
 
@@ -43,4 +45,4 @@ Users should be able to:
 
 ### What I learned
 
-This was a tricky one, quite challenging for me, learned a lot, learned about creating drop down box(accordian) using id:target approach (got help from a youtube video), I also cleared my concept regarding background-image property of css, got better understanding of flex display and proper positioning techniques to make my website more responsive. I also learnt little bit about CSS animation and tried it over the box.
+This was a tricky one, quite challenging for me, learned a lot, learned about drop creating drop down box using id:target approach (got help from a youtube video), I also cleared my concept regarding background-image property of css, got better understanding of flex display and proper positioning techniques to make my website more responsive. I also learnt little bit about CSS animation and tried it over the box.
