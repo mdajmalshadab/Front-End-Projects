@@ -1,0 +1,128 @@
+body {
+  background-color: #e0e8ff;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.bg {
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom 370px right 0;
+}
+
+/*************************************** Card ****************************************/
+.main-card {
+  text-align: center;
+  width: 375px;
+  margin: 5rem auto 0 auto;
+  border-radius: 4%;
+}
+
+.title-img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+/*********************************** Order Summary ************************************/
+.order-summary {
+  padding: 1rem 1rem 0 1rem;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #1f2f56;
+}
+
+.order-desc {
+  padding: 0.2rem 1rem 1rem 1rem;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #7280a7;
+}
+
+/*********************************** Pricing **************************************/
+.price-section {
+  background-color: #f5f7ff;
+  margin: 0.5rem 0.5rem;
+  padding: 1rem 0.2rem 0 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.music-icon {
+  background-color: #e0e8ff;
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #7280a7;
+  padding: 0.4rem 0.15rem 0 0;
+  margin-left: 1rem;
+  border-radius: 50%;
+}
+
+.plan {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.annual-plan {
+  font-weight: 900;
+  color: #1f2f56;
+}
+
+/* Change link Div CSS */
+.change-plan {
+  padding: 0.6rem 0 0 3rem;
+}
+
+.plan-rate {
+  font-size: 0.9rem;
+}
+
+.change-link {
+  color: #3829e0;
+  font-size: 0.9rem;
+}
+
+/******************************************** Button *************************************/
+.submit-btn {
+  padding: 0.7rem 6.5rem 0.7rem 6.5rem;
+  background-color: #3829e0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: 1rem 0 0.5rem 0;
+  border-radius: 0.8rem !important;
+}
+
+/******************************************* Cancel **************************************/
+.cancel-order {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #7280a7;
+  margin: 1rem;
+}
+
+/* Footer */
+
+.attribution {
+  text-align: center;
+  padding: 3rem;
+}
+
+/***************************************** For Mobile ***********************************/
+@media only screen and (max-width: 550px) {
+  .main-card {
+    width: 350px;
+  }
+
+  .change-plan {
+    padding: 0.6rem 0 0 1.5rem;
+  }
+
+  .submit-btn {
+    padding: 1rem 5.5rem 1rem 5.5rem;
+  }
+
+  .bg {
+    background-position: bottom 470px right -200px;
+  }
+}
