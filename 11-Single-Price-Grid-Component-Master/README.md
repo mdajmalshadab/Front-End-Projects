@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/mdajmalshadab/Front-End-Projects/tree/Practice-Projects/10-Intro-Component-With-Signup-Form-Master)
-- [Live Site URL](https://mdajmalshadab.github.io/Front-End-Projects/10-Intro-Component-With-Signup-Form-Master/index.html)
+- [Solution URL](https://github.com/mdajmalshadab/Front-End-Projects/tree/Practice-Projects/11-Single-Price-Grid-Component-Master)
+- [Live Site URL](https://mdajmalshadab.github.io/Front-End-Projects/11-Single-Price-Grid-Component-Master/index.html)
 
 ## My process
 
