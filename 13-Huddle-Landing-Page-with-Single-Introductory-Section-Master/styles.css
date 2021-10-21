@@ -1,0 +1,119 @@
+body {
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('images/bg-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left 0 top -1.5rem;
+  text-align: center;
+}
+
+.head-logo {
+  text-align: left;
+}
+.logo {
+  margin: 2rem 3rem;
+  width: 30%;
+  max-width: 200px;
+}
+.mockup-img {
+  width: 80%;
+  max-width: 800px;
+
+  margin: 2rem auto;
+}
+.main-heading {
+  margin: 3rem 3rem 1.5rem 3rem;
+  line-height: 40px;
+  font-weight: 600;
+}
+p {
+  margin: 0 4.8rem 2rem 4.8rem;
+}
+.register {
+  background-color: #fff;
+  color: hsl(257, 40%, 49%);
+  width: 45%;
+  max-width: 200px;
+  padding: 0.7rem 0;
+  border-radius: 25px;
+  margin-bottom: 4rem;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+.register:hover {
+  background-color: hsl(300, 69%, 71%);
+}
+.social {
+  border: 2px solid lightgrey;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin: 1rem 0.5rem 3rem 0.5rem;
+  display: inline-block;
+}
+.social:hover {
+  border-color: hsl(300, 69%, 71%);
+}
+.social:hover .fab {
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+}
+.social .fab:hover {
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+}
+.fab {
+  margin-top: 9px;
+}
+
+/************************************************* For Larger Sreen  ********************************************/
+/****************************************************************************************************************/
+
+@media (min-width: 800px) {
+  body {
+    background-image: url('images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left 0 top 0;
+    height: 100vh;
+  }
+
+  .logo {
+    margin-top: 3rem;
+    margin-left: 5rem;
+  }
+  .page-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-section {
+    width: 120%;
+    margin-left: 5rem;
+    min-width: 500px;
+  }
+  .mockup-img {
+    width: 100%;
+    margin: 2rem auto;
+  }
+  .headings-para {
+    text-align: left;
+    margin: 3rem 10rem 3rem 4rem;
+  }
+  .main-heading {
+    margin: 0;
+  }
+  p {
+    margin: 2rem 0;
+  }
+  .footer-section {
+    text-align: right;
+    margin-right: 4rem;
+  }
+  .social {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
