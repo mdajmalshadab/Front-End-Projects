@@ -80,7 +80,7 @@ p {
   }
 
   .logo {
-    margin-top: 3rem;
+    margin-top: 6rem;
     margin-left: 5rem;
   }
   .page-body {
@@ -90,7 +90,7 @@ p {
     align-items: center;
   }
   .image-section {
-    width: 120%;
+    width: 140%;
     margin-left: 5rem;
     min-width: 500px;
   }
