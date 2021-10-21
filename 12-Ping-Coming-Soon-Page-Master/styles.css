@@ -131,6 +131,7 @@ input[type='email']:focus {
   input[type='email'] {
     margin-top: 0;
     width: 170%;
+    max-width: 430px;
     padding: 0.7rem 1.5rem;
     display: inline-block;
   }
@@ -140,7 +141,7 @@ input[type='email']:focus {
   input[type='submit'] {
     margin-top: 0;
     margin-left: 192px;
-    width: 150px;
+    max-width: 150px;
     padding: 0.7rem 0;
     display: inline-block;
   }
